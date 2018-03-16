@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1765px){
+    .lrn-content{
+        width: 30%;
+}
+}
+@media only screen and (max-width: 768px){
+    /********** header **************/
+    header .logo, header .nav-deskt{
+        display: none;
+    }
+    .nav-mobile{
+        width: 100%;
+        display: block;
+    }
+    .nav-mobile ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    /************* banniere ****************/
+    .banniere{
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 32px;
+    }
+    .bn-image{
+        width: 100%;
+        margin: 0;
+    }
+    .bn-content{
+        width: 100%;
+    }
+    .bn-content h1{
+        margin: 32px 0;
+        padding-left: 16px;
+    }
+    .bn-content p:first-of-type{
+        margin-top: 0;
+        margin-bottom:24px; 
+        padding-left: 16px;
+    }
+    .start{
+        padding: 0 16px;
+    }
+    .start a{
+        width: 100%;
+        background-color: grey;
+    }
+    /************ information **********/
+    .inf-content{
+        display: none;
+    }
+    .inf-aside{
+        width: 100%;
+        padding: 0;
+    }
+    aside{
+        padding: 16px 16px 32px 16px;
+        flex-direction: column;
+        background-color: white;
+    }
+    aside:first-of-type{
+        border-bottom: none;
+    }
+    aside:nth-child(3n){
+        background-color: white;
+    }
+    aside.campus{
+        padding: 48px 16px;
+    }
+    aside.lecture{
+        padding: 48px 16px 32px 16px;
+    }
+    .aside-image{
+        width: 100%;
+    }
+    .img-dsk{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+    }
+    .aside-image img{
+        width: 100%;
+    }
+    /************** learning ************/
+    .learning{
+        padding-bottom: 32px;
+        background-color: white;
+    }
+    .learning h1{
+        margin-bottom: 16px;
+    }
+    .lrn-option{
+        flex-direction: column;
+        
+    }
+    .lrn-content{
+        width: 100%;
+        margin-bottom: 8px;
+        transition: background-color .75s linear;
+        background-color: #E0E0E0;
+    }
+    .lrn-content:hover{
+        background-color: #3E73F0;
+    }
+    .lrn-content:nth-child(1), .lrn-content:nth-child(2), .lrn-content:nth-child(3), .lrn-content:nth-child(5){
+        margin: 0;
+        margin-bottom: 8px;
+        
+    }
+    .lrn-img, .lrn-presentation h4, .lrn-presentation p{
+        display: none;
+    }
+    /************ thesis ************/
+    .thesis{
+        padding: 32px 0 24px 0;
+    }
+    .thesis h1{
+        margin-bottom: 16px;
+    }
+    .ths-video{
+        width: 100%;
+        margin: 0;
+    }
+    .ths-video video{
+        width: 100%;
+    }
+    .ths-video h3, .ths-video blockquote, .ths-aside{
+        display: none;
+    }
+    /************* footer *************/
+    footer{
+        height: 20px;
+        padding: 16px;
+    }
+    footer nav{
+        display: none;
+    }
+}
